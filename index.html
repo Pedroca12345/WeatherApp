@@ -24,66 +24,72 @@
             </button>
         </div>
 
-        <div class="city">
-            <h1 id="city-name">Águas-Lindas - </h1>
-            <img id="city-country" src="" alt="País">
+        <div class="weather-information-container hide">
+            <div class="city">
+                <h1 id="city-name"></h1>
+                <img id="city-country" alt="País">
+            </div>
+    
+            <div class="weather-information">
+                
+                <div class="information-img">
+                    <img id="weather-img" alt="Weather">
+                </div>
+                
+                <div class="information-text">
+                    <h1 id="degrees-title"></h1>
+                    <p id="weather-description"></p>
+                </div>
+    
+            </div>
+    
+            <div class="weather-data">
+    
+                <div class="max-temperature data-card">
+                    <i class="fa-solid fa-temperature-three-quarters"></i>
+    
+                    <div class="max-temperature-description">
+                        <p class="title">Temp. max</p>
+                        <p id="max-temp"></p>
+                    </div>
+    
+                </div>
+    
+                <div class="min-temperature data-card">
+                    <i class="fa-solid fa-temperature-quarter"></i>
+    
+                    <div class="min-temperature-description">
+                        <p class="title">Temp. min</p>
+                        <p id="min-temp"></p>
+                    </div>
+    
+                </div>
+    
+                <div class="humidity data-card">
+                    <i class="fa-solid fa-droplet"></i>
+    
+                    <div class="humidity-description">
+                        <p class="title">Umidade</p>
+                        <p id="humidity"></p>
+                    </div>
+    
+                </div>
+    
+                <div class="wind-speed data-card">
+                    <i class="fa-solid fa-wind"></i>
+    
+                    <div class="wind-speed-description">
+                        <p class="title">Vento</p>
+                        <p id="wind-speed"></p>
+                    </div>
+    
+                </div>
         </div>
 
-        <div class="weather-information">
-            
-            <div class="information-img">
-                <img id="weather-img" src="http://openweathermap.org/img/wn/04d@2x.png" alt="Weather">
-            </div>
-            
-            <div class="information-text">
-                <h1 id="degrees-title">20 <sup>C°</sup></h1>
-                <p id="weather-description">Nublado</p>
-            </div>
-
         </div>
 
-        <div class="weather-data">
-
-            <div class="max-temperature data-card">
-                <i class="fa-solid fa-temperature-three-quarters"></i>
-
-                <div class="max-temperature-description">
-                    <p class="title">Temp. max</p>
-                    <p id="max-temp">20 <sup>C°</sup></p>
-                </div>
-
-            </div>
-
-            <div class="min-temperature data-card">
-                <i class="fa-solid fa-temperature-quarter"></i>
-
-                <div class="min-temperature-description">
-                    <p class="title">Temp. min</p>
-                    <p id="min-temp">10 <sup>C°</sup></p>
-                </div>
-
-            </div>
-
-            <div class="humidity data-card">
-                <i class="fa-solid fa-droplet"></i>
-
-                <div class="humidity-description">
-                    <p class="title">Umidade</p>
-                    <p id="humidity">50%</p>
-                </div>
-
-            </div>
-
-            <div class="wind-speed data-card">
-                <i class="fa-solid fa-wind"></i>
-
-                <div class="wind-speed-description">
-                    <p class="title">Vento</p>
-                    <p id="wind-speed">20 km/h</p>
-                </div>
-
-            </div>
-
+        <div class="error hide">
+            <p>Cidade não encontrada!!</p>
         </div>
 
     </div>

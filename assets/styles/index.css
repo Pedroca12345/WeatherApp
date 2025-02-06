@@ -13,6 +13,10 @@ body {
     background-color: #20A4F3;
 }
 
+h1 {
+    font-size: 25px;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -23,6 +27,10 @@ body {
     background-color: #F9F9F9;
     border-radius: 20px;
     box-shadow: 0 0 3px #181818;
+}
+
+.weather-information-container {
+    width: 100%;
 }
 
 .search {
@@ -64,6 +72,11 @@ body {
     margin-right: 10px;
 }
 
+.city img {
+    width: 78px;
+    height: 42px;
+}
+
 .weather-information {
     display: flex;
     align-items: center;
@@ -74,6 +87,11 @@ body {
     border-radius: 20px;
     margin: 12px 0;
     width: 100%;
+}
+
+.information-img img {
+    width: 70px;
+    height: 70px;
 }
 
 .weather-data {
@@ -98,4 +116,12 @@ body {
 
 p.title {
     font-weight: 600;
+}
+
+.hide {
+    display: none;
+}
+
+.error {
+    color: #ff3737;
 }
